@@ -21,4 +21,4 @@ const person2 = new Person("Priyanka", "Madhwal");          // here, we are addi
 
 // here, we are print or use shared method.....
 console.log(person1.getFullName());
-console.log(person2.getFullName());
+console.log(person2.getFullName()); 
