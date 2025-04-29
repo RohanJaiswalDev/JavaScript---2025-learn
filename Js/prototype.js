@@ -5,9 +5,9 @@
 function Person(firstName, lastName) {
     this.firstName = firstName;
     this.lastName = lastName;
-}
+} 
 
-// here, we are adding method to a prototype....
+// here, we are adding method to a prototype.... 
 Person.prototype.getFullName = function(){
     return this.firstName + " " + this.lastName;
 };

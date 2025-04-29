@@ -22,7 +22,7 @@ console.log(`Student's Contact Number is ${student["contact_No"]}`);      // Bra
 // Updating, Adding and Deleting:
 student.age = 21;   // updatting (student age in object)
 student.gender = "Male";   // Adding (Gender in object)
-delete student.contact_No   // Deleting (contact number  in object)
+delete student.contact_No;  // Deleting (contact number  in object)
 
 // object function - calling:
 student.studentInfo();
@@ -43,6 +43,7 @@ const student2 = {
     }
 }
 // How we go through each property (key) and get its value?
+
 for (let key in student2) {
     console.log(key);         // showing only property....
     console.log(student2[key]);     // showing property with values....
