@@ -27,10 +27,26 @@ class Student2 {
         this.course = course;
     }
 
-    getFullDetail() {
+    getFullInfo() {
         return `My id is ${this.id}, her full name is ${this.fullName} and Course name is ${this.course}.`;
     }
 }
 
 const studentInfo = new Student2("002", "Priyanka Madhwal", "Full-Stack");
-console.log(studentInfo.getFullDetail());
+console.log(studentInfo.getFullInfo());
+
+
+// ***************** Another Example - using ES6 class ********************* //     (BEST ONE IS THIS - ES6)  
+class Employee{
+    constructor(employee_id, employee_name){
+            this.employee_id = employee_id;
+            this.employee_name = employee_name;
+    }
+
+    getEmployeeInfo(){
+        return `The Employee id is : ${this.employee_id} and  his Full Name is ${this.employee_name}`;
+    }
+}
+
+const EmployeeDetail = new Employee("001", "Gaurav Gusain");
+console.log(EmployeeDetail.getEmployeeInfo());
